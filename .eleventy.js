@@ -1,7 +1,10 @@
-module.exports = {
-  dir: {
-    input: "source/content",
-    includes: "../_includes",
-    data: "../_data",
-  }
-}
+module.exports = function (eleventyConfig) {
+  
+  return {
+    dir: {
+      input: 'source/content',
+      includes: '../_includes',
+      data: '../_data',
+    },
+  };
+};
