@@ -1,0 +1,24 @@
+---
+pagination:
+  data: typeMismatch
+  size: 1
+  alias: item
+permalink: "/type-mismatch/{{ item.name | slug }}/"
+---
+<!doctype html>
+<meta charset="utf-8">
+<title>{{ item.name }}</title>
+<meta name="viewport" content="width=device-width">
+<link
+  rel="icon"
+  {% if item.type !== null %}type="{{item.type}}"{% endif %}
+  href="{{item.path}}"
+>
+<body>
+<h1>favicons</h1>
+<p>name: {{ item.path }}</p>
+<p>type: {{ item.type }}</p>
+<figure>
+<img src="{{ item.path }}">
+<figcaption>preview: {{ item.path }}</figcaption>
+</figure>
