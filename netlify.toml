@@ -2,3 +2,13 @@
   command = "eleventy"
   functions = "netlify/functions"
   publish = "_site"
+
+[[headers]]
+  for = "/assets/icons/jxl/*"
+  [headers.values]
+    Content-Type = "image/jxl"
+
+[[headers]]
+  for = "/assets/icons/avif/*"
+  [headers.values]
+    Content-Type = "image/avif"
