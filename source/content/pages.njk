@@ -12,14 +12,14 @@ permalink: "{{ item.permalink }}"
 <link
   {% if item.shortcut %}rel="shortcut icon"{% else %}rel="icon"{% endif %}
   {% if item.type !== null %}type="{{item.type}}"{% endif %}
-  href="{{item.path}}"
+  href="{{item.iconPath}}"
 >
 <body>
 <h1>{{ item.title }}</h1>
-<p>name: {{ item.path }}</p>
+<p>name: {{ item.iconPath }}</p>
 <p>type: {{ item.type }}</p>
 <p>shortcut: {{ item.shortcut }}</p>
 <figure>
-<img src="{{ item.path }}">
-<figcaption>preview: {{ item.path }}</figcaption>
+<img src="{{ item.iconPath }}">
+<figcaption>preview: {{ item.iconPath }}</figcaption>
 </figure>
