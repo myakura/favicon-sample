@@ -11,7 +11,7 @@ const formats = [
 const iconsByFormat = [...formats.values()].map(({ label, ext, dir }) => {
   return sizes.map((size) => {
     return {
-      title: `${label} favicon (${size}×${size})`,
+      title: `${label} (${size}×${size})`,
       path: `/assets/icons/${dir}/icon-${size}.${ext}`,
       permalink: `/format/${dir}/${size}/`,
     };
