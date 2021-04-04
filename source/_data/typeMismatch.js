@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: 'PNG favicon with type `image/vng.microsoft.icon`',
+    title: 'PNG favicon with type `image/vnd.microsoft.icon`',
     type: 'image/vnd.microsoft.icon',
     path: '/assets/icons/png/icon-16.png',
     permalink: '/type-mismatch/type-ico-file-png/',
