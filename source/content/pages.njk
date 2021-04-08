@@ -14,14 +14,45 @@ permalink: "{{ item.permalink }}"
   {% if item.type !== null %}type="{{item.type}}"{% endif %}
   href="{{item.iconPath}}"
 >
+<style>
+figure {
+  margin-inline: 0;
+}
+footer {
+  margin-top: 3em;
+  padding: 1em 0 2em;
+  border-top: thin solid #999;
+}
+</style>
 <body>
 <h1>{{ item.title }}</h1>
-<p>name: {{ item.iconPath }}</p>
-<p>type: {{ item.type }}</p>
-<p>shortcut: {{ item.shortcut }}</p>
-<figure>
-<img src="{{ item.iconPath }}">
-<figcaption>preview: {{ item.iconPath }}</figcaption>
-</figure>
+<dl>
+<dt>icon
+<dd>
+  <a href="{{ item.iconPath }}">{{ item.iconPath }}</a>
+  <figure>
+    <img src="{{ item.iconPath }}">
+  </figure>
+<dt>rel
+<dd>
+  {% if item.shortcut %}
+    <code>rel="shortcut icon"</code>
+  {% else %}
+    <code>rel="icon"</code>
+  {% endif %}
+<dt>type
+<dd>
+  {% if item.type === null %}
+    not set
+  {% elif item.type === "" %}
+    blank
+  {% else %}
+    <code>type="{{item.type}}"</code>
+  {% endif %}
+</dl>
 
+<footer>
+<nav>
 <p><a href="/">home</a></p>
+</nav>
+</footer>
