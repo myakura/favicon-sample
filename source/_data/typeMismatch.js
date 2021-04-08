@@ -29,4 +29,10 @@ module.exports = [
     iconPath: '/assets/icons/jpg/icon-16.jpg',
     permalink: '/type-mismatch/type-blank-file-jpg/',
   },
+  {
+    title: 'PNG (type="image/svg+xml")',
+    type: 'image/svg+xml',
+    iconPath: '/assets/icons/png/icon-16.png',
+    permalink: '/type-mismatch/type-svg-file-png/',
+  },
 ];

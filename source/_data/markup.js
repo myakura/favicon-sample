@@ -41,6 +41,12 @@ const iconSets = [
     type: 'image/jxl',
     iconPath: '/assets/icons/jxl/icon-16.jxl',
   },
+  {
+    id: 'svg',
+    fileType: 'SVG',
+    type: 'image/svg+xml',
+    iconPath: '/assets/icons/svg/icon-16.svg',
+  },
 ];
 
 
