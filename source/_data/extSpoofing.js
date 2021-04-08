@@ -30,6 +30,11 @@ const extSpoofing = [
     iconPath: '/assets/icons/ext-spoofing/icon.ico.png',
     permalink: '/ext-spoofing/ico-as-png/',
   },
+  {
+    title: 'SVG served as ".png"',
+    iconPath: '/assets/icons/ext-spoofing/icon-16.svg.png',
+    permalink: '/ext-spoofing/svg-as-png/',
+  },
 ];
 
 module.exports = extSpoofing;
