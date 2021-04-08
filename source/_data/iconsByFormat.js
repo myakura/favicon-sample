@@ -6,6 +6,7 @@ const formats = [
   { label: 'AVIF', ext: 'avif', dir: 'avif' },
   { label: 'JPEG XL', ext: 'jxl', dir: 'jxl' },
   { label: 'ICO', ext: 'ico', dir: 'ico-single' },
+  { label: 'SVG', ext: 'svg', dir: 'svg' },
 ];
 
 const iconsByFormat = [...formats.values()].map(({ label, ext, dir }) => {
