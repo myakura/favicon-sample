@@ -1,4 +1,4 @@
-const sizes = [16, 24, 32, 48, 64, 96, 128, 144, 180, 192, 256, 512, 1024];
+const sizes = [16, 24, 32, 48, 64, 96, 128, 144, 180, 192, 256, 512, 1024, 2048, 4096];
 const formats = [
   { label: 'PNG', ext: 'png', dir: 'png' },
   { label: 'JPEG', ext: 'jpg', dir: 'jpg' },
