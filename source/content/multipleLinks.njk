@@ -12,8 +12,8 @@ permalink: "{{ item.permalink }}"
 {% for icon in item.icons %}
 <link
   {% if icon.rel %}rel="{{icon.rel}}"{% else %}rel="icon"{% endif %}
-  {% if icon.type !== null %}type="{{icon.type}}"{% endif %}
-  {% if icon.sizes !== null %}sizes="{{icon.sizes}}"{% endif %}
+  {% if icon.type !== undefined %}type="{{icon.type}}"{% endif %}
+  {% if icon.sizes !== undefined %}sizes="{{icon.sizes}}"{% endif %}
   href="{{icon.iconPath}}"
 >
 {% endfor %}

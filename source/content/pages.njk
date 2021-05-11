@@ -11,7 +11,7 @@ permalink: "{{ item.permalink }}"
 <meta name="viewport" content="width=device-width">
 <link
   {% if item.shortcut %}rel="shortcut icon"{% else %}rel="icon"{% endif %}
-  {% if item.type !== null %}type="{{item.type}}"{% endif %}
+  {% if item.type !== undefined %}type="{{item.type}}"{% endif %}
   href="{{item.iconPath}}"
 >
 <style>
