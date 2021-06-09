@@ -54,6 +54,15 @@ footer {
   {% else %}
     <code>type="{{icon.type}}"</code>
   {% endif %}
+<dt>sizes
+<dd>
+  {% if icon.sizes === undefined %}
+    not set
+  {% elif icon.sizes === "" %}
+    blank (<code>""</code>)
+  {% else %}
+    <code>sizes="{{icon.sizes}}"</code>
+  {% endif %}
 </dl>
 {% endfor %}
 
