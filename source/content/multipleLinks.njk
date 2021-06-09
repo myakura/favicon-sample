@@ -47,7 +47,7 @@ footer {
   {% endif %}
 <dt>type
 <dd>
-  {% if icon.type === null %}
+  {% if icon.type === undefined %}
     not set
   {% elif icon.type === "" %}
     blank (<code>""</code>)
