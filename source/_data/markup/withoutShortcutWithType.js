@@ -52,10 +52,9 @@ const iconSets = [
 module.exports = iconSets.map(({ id, fileType, type, iconPath }) => {
   return {
     title: `${fileType} (rel="icon" type="${type}")`,
-    icons: {
-      type,
-      iconPath,
-    },
+    icons: [
+      { type, iconPath },
+    ],
     permalink: `/markup/without-shortcut-with-type/${id}/`,
   };
 });
