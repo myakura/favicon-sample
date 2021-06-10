@@ -9,11 +9,14 @@ permalink: "{{ item.permalink }}"
 <meta charset="utf-8">
 <title>{{ item.title }}</title>
 <meta name="viewport" content="width=device-width">
+{% for icon in item.icons %}
 <link
-  {% if item.shortcut %}rel="shortcut icon"{% else %}rel="icon"{% endif %}
-  {% if item.type !== undefined %}type="{{item.type}}"{% endif %}
-  href="{{item.iconPath}}"
+  {% if icon.rel %}rel="{{icon.rel}}"{% else %}rel="icon"{% endif %}
+  {% if icon.type !== undefined %}type="{{icon.type}}"{% endif %}
+  {% if icon.sizes !== undefined %}sizes="{{icon.sizes}}"{% endif %}
+  href="{{icon.iconPath}}"
 >
+{% endfor %}
 <style>
 figure {
   margin-inline: 0;
@@ -26,30 +29,42 @@ footer {
 </style>
 <body>
 <h1>{{ item.title }}</h1>
+
+{% for icon in item.icons %}
 <dl>
 <dt>icon
 <dd>
-  <a href="{{ item.iconPath }}">{{ item.iconPath }}</a>
+  <a href="{{ icon.iconPath }}">{{ icon.iconPath }}</a>
   <figure>
-    <img src="{{ item.iconPath }}">
+    <img src="{{ icon.iconPath }}">
   </figure>
 <dt>rel
 <dd>
-  {% if item.shortcut %}
-    <code>rel="shortcut icon"</code>
+  {% if icon.rel %}
+    <code>rel="{{icon.rel}}"</code>
   {% else %}
     <code>rel="icon"</code>
   {% endif %}
 <dt>type
 <dd>
-  {% if item.type === null %}
+  {% if icon.type === undefined %}
     not set
-  {% elif item.type === "" %}
-    blank
+  {% elif icon.type === "" %}
+    blank (<code>""</code>)
   {% else %}
-    <code>type="{{item.type}}"</code>
+    <code>type="{{icon.type}}"</code>
+  {% endif %}
+<dt>sizes
+<dd>
+  {% if icon.sizes === undefined %}
+    not set
+  {% elif icon.sizes === "" %}
+    blank (<code>""</code>)
+  {% else %}
+    <code>sizes="{{icon.sizes}}"</code>
   {% endif %}
 </dl>
+{% endfor %}
 
 <footer>
 <nav>
