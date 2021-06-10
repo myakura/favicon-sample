@@ -6,4 +6,5 @@ module.exports = [
   ...require('./formats/jxl.js'),
   ...require('./formats/svg.js'),
   ...require('./formats/icoSingle.js'),
+  ...require('./formats/icoMultiple.js'),
 ];
