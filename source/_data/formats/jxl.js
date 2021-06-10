@@ -7,9 +7,9 @@ const { label, ext, dir } = { label: 'JPEG XL', ext: 'jxl', dir: 'jxl' };
 module.exports = sizes.map((size) => {
   return {
     title: `${label} (${size}×${size})`,
-    icons: {
-      iconPath: `/assets/icons/${dir}/icon-${size}.${ext}`
-    },
+    icons: [
+      { iconPath: `/assets/icons/${dir}/icon-${size}.${ext}` },
+    ],
     permalink: `/format/${dir}/${size}/`,
   };
 });
