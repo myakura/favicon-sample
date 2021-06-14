@@ -52,3 +52,11 @@ layout: template.njk
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
+
+## multiple `<link>` elements with or without type attributes
+
+<ul>
+{% for item in typeAttribute %}
+<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
