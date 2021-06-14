@@ -4,7 +4,7 @@ module.exports = [
     icons: [
       {
         type: 'image/vnd.microsoft.icon',
-        iconPath: '/assets/icons/png/icon-16.png',
+        href: '/assets/icons/png/icon-16.png',
       },
     ],
     permalink: '/type-mismatch/type-ico-file-png/',
@@ -14,7 +14,7 @@ module.exports = [
     icons: [
       {
         type: 'image/jpeg',
-        iconPath: '/assets/icons/png/icon-16.png',
+        href: '/assets/icons/png/icon-16.png',
       },
     ],
     permalink: '/type-mismatch/type-jpeg-file-png/',
@@ -24,7 +24,7 @@ module.exports = [
     icons: [
       {
         type: 'text/plain',
-        iconPath: '/assets/icons/png/icon-16.png',
+        href: '/assets/icons/png/icon-16.png',
       },
     ],
     permalink: '/type-mismatch/type-text-file-png/',
@@ -34,7 +34,7 @@ module.exports = [
     icons: [
       {
         type: 'invalid',
-        iconPath: '/assets/icons/jpg/icon-16.jpg',
+        href: '/assets/icons/jpg/icon-16.jpg',
       },
     ],
     permalink: '/type-mismatch/type-invalid-file-jpg/',
@@ -44,7 +44,7 @@ module.exports = [
     icons: [
       {
         type: '',
-        iconPath: '/assets/icons/jpg/icon-16.jpg',
+        href: '/assets/icons/jpg/icon-16.jpg',
       },
     ],
     permalink: '/type-mismatch/type-blank-file-jpg/',
@@ -54,7 +54,7 @@ module.exports = [
     icons: [
       {
         type: 'image/svg+xml',
-        iconPath: '/assets/icons/png/icon-16.png',
+        href: '/assets/icons/png/icon-16.png',
       },
     ],
     permalink: '/type-mismatch/type-svg-file-png/',

@@ -4,7 +4,7 @@ module.exports = [
     icons: [
       {
         type: 'image/png',
-        iconPath: '/assets/icons/ext-spoofing/icon-16.png.txt',
+        href: '/assets/icons/ext-spoofing/icon-16.png.txt',
       },
     ],
     permalink: '/ext-spoofing/png-as-txt-type-png/',
@@ -13,7 +13,7 @@ module.exports = [
     title: 'PNG served as ".txt"',
     icons: [
       {
-        iconPath: '/assets/icons/ext-spoofing/icon-16.png.txt',
+        href: '/assets/icons/ext-spoofing/icon-16.png.txt',
       },
     ],
     permalink: '/ext-spoofing/png-as-txt/',
@@ -22,7 +22,7 @@ module.exports = [
     title: 'PNG served as ".jpg"',
     icons: [
       {
-        iconPath: '/assets/icons/ext-spoofing/icon-16.png.jpg',
+        href: '/assets/icons/ext-spoofing/icon-16.png.jpg',
       },
     ],
     permalink: '/ext-spoofing/png-as-jpg/',
@@ -31,7 +31,7 @@ module.exports = [
     title: 'PNG served as ".webp"',
     icons: [
       {
-        iconPath: '/assets/icons/ext-spoofing/icon-16.png.webp',
+        href: '/assets/icons/ext-spoofing/icon-16.png.webp',
       },
     ],
     permalink: '/ext-spoofing/png-as-webp/',
@@ -40,7 +40,7 @@ module.exports = [
     title: 'PNG served as ".ico"',
     icons: [
       {
-        iconPath: '/assets/icons/ext-spoofing/icon-16.png.ico',
+        href: '/assets/icons/ext-spoofing/icon-16.png.ico',
       },
     ],
     permalink: '/ext-spoofing/png-as-ico/',
@@ -49,7 +49,7 @@ module.exports = [
     title: 'ICO served as ".png"',
     icons: [
       {
-        iconPath: '/assets/icons/ext-spoofing/icon.ico.png',
+        href: '/assets/icons/ext-spoofing/icon.ico.png',
       },
     ],
     permalink: '/ext-spoofing/ico-as-png/',
@@ -58,7 +58,7 @@ module.exports = [
     title: 'SVG served as ".png"',
     icons: [
       {
-        iconPath: '/assets/icons/ext-spoofing/icon-16.svg.png',
+        href: '/assets/icons/ext-spoofing/icon-16.svg.png',
       },
     ],
     permalink: '/ext-spoofing/svg-as-png/',

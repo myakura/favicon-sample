@@ -8,7 +8,7 @@ module.exports = sizes.map((size) => {
   return {
     title: `${label} (${size}×${size})`,
     icons: [
-      { iconPath: `/assets/icons/${dir}/icon-${size}.${ext}` },
+      { href: `/assets/icons/${dir}/icon-${size}.${ext}` },
     ],
     permalink: `/format/${dir}/${size}/`,
   };

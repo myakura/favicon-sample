@@ -14,7 +14,7 @@ permalink: "{{ item.permalink }}"
   {% if icon.rel %}rel="{{icon.rel}}"{% else %}rel="icon"{% endif %}
   {% if icon.type !== undefined %}type="{{icon.type}}"{% endif %}
   {% if icon.sizes !== undefined %}sizes="{{icon.sizes}}"{% endif %}
-  href="{{icon.iconPath}}"
+  href="{{icon.href}}"
 >
 {% endfor %}
 <style>
@@ -34,9 +34,9 @@ footer {
 <dl>
 <dt>icon
 <dd>
-  <a href="{{ icon.iconPath }}">{{ icon.iconPath }}</a>
+  <a href="{{ icon.href }}">{{ icon.href }}</a>
   <figure>
-    <img src="{{ icon.iconPath }}">
+    <img src="{{ icon.href }}">
   </figure>
 <dt>rel
 <dd>
