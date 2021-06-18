@@ -14,6 +14,7 @@ permalink: "{{ item.permalink }}"
   {% if icon.rel %}rel="{{icon.rel}}"{% else %}rel="icon"{% endif %}
   {% if icon.type !== undefined %}type="{{icon.type}}"{% endif %}
   {% if icon.sizes !== undefined %}sizes="{{icon.sizes}}"{% endif %}
+  {% if icon.media !== undefined %}media="{{icon.media}}"{% endif %}
   href="{{icon.href}}"
 >
 {% endfor %}
@@ -62,6 +63,15 @@ footer {
     blank (<code>""</code>)
   {% else %}
     <code>sizes="{{icon.sizes}}"</code>
+  {% endif %}
+<dt>media
+<dd>
+  {% if icon.media === undefined %}
+    not set
+  {% elif icon.media === "" %}
+    blank (<code>""</code>)
+  {% else %}
+    <code>media="{{icon.media}}"</code>
   {% endif %}
 </dl>
 {% endfor %}
