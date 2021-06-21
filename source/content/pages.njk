@@ -33,46 +33,61 @@ footer {
 
 {% for icon in item.icons %}
 <dl>
-<dt>icon
-<dd>
-  <a href="{{ icon.href }}">{{ icon.href }}</a>
-  <figure>
-    <img src="{{ icon.href }}">
-  </figure>
-<dt>rel
-<dd>
-  {% if icon.rel %}
-    <code>rel="{{icon.rel}}"</code>
-  {% else %}
-    <code>rel="icon"</code>
-  {% endif %}
-<dt>type
-<dd>
-  {% if icon.type === undefined %}
-    not set
-  {% elif icon.type === "" %}
-    blank (<code>""</code>)
-  {% else %}
-    <code>type="{{icon.type}}"</code>
-  {% endif %}
-<dt>sizes
-<dd>
-  {% if icon.sizes === undefined %}
-    not set
-  {% elif icon.sizes === "" %}
-    blank (<code>""</code>)
-  {% else %}
-    <code>sizes="{{icon.sizes}}"</code>
-  {% endif %}
-<dt>media
-<dd>
-  {% if icon.media === undefined %}
-    not set
-  {% elif icon.media === "" %}
-    blank (<code>""</code>)
-  {% else %}
-    <code>media="{{icon.media}}"</code>
-  {% endif %}
+<div>
+  <dt>icon</dt>
+  <dd>
+    <a href="{{ icon.href }}">{{ icon.href }}</a>
+    <figure>
+      <img src="{{ icon.href }}">
+    </figure>
+  </dd>
+</div>
+<div>
+  <dt>rel</dt>
+  <dd>
+    {% if icon.rel %}
+      <code>rel="{{icon.rel}}"</code>
+    {% else %}
+      <code>rel="icon"</code>
+    {% endif %}
+  </dd>
+</div>
+<div>
+  <dt>type</dt>
+  <dd>
+    {% if icon.type === undefined %}
+      not set
+    {% elif icon.type === "" %}
+      blank (<code>""</code>)
+    {% else %}
+      <code>type="{{icon.type}}"</code>
+    {% endif %}
+  </dd>
+</div>
+<div>
+  <dt>sizes</dt>
+  <dd>
+    {% if icon.sizes === undefined %}
+      not set
+    {% elif icon.sizes === "" %}
+      blank (<code>""</code>)
+    {% else %}
+      <code>sizes="{{icon.sizes}}"</code>
+    {% endif %}
+  </dd>
+</div>
+<div>
+  <dt>media</dt>
+  <dd>
+    {% if icon.media === undefined %}
+      not set
+    {% elif icon.media === "" %}
+      blank (<code>""</code>)
+    {% else %}
+      <code>media="{{icon.media}}"</code>
+    {% endif %}
+  </dd>
+</div>
 </dl>
 {% endfor %}
 
