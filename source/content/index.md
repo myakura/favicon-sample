@@ -8,7 +8,7 @@ layout: template.njk
 ### formats
 
 <ul>
-{% for item in formats %}
+{% for item in format %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>

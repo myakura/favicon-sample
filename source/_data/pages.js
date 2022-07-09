@@ -1,5 +1,5 @@
 module.exports = [
-  ...require('./formats.js'),
+  ...require('./format.js'),
   ...require('./markup.js'),
   ...require('./typeMismatch.js'),
   ...require('./extSpoofing.js'),
