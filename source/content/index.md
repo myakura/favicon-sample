@@ -40,7 +40,7 @@ layout: template.njk
 ## pages with two `<link>` elements
 
 <ul>
-{% for item in 2-icons %}
+{% for item in 2formats %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>

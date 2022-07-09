@@ -5,7 +5,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/png/icon-24.png' },
     ],
-    permalink: '/2-icons/png-16-png-24/',
+    permalink: '/2formats/png-16-png-24/',
   },
   {
     title: 'PNG 16×16, PNG 32×32',
@@ -13,7 +13,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/png/icon-32.png' },
     ],
-    permalink: '/2-icons/png-16-png-32/',
+    permalink: '/2formats/png-16-png-32/',
   },
   {
     title: 'PNG 16×16, PNG 48×48',
@@ -21,7 +21,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/png/icon-48.png' },
     ],
-    permalink: '/2-icons/png-16-png-48/',
+    permalink: '/2formats/png-16-png-48/',
   },
   {
     title: 'PNG 16×16, PNG 192×192',
@@ -29,7 +29,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/png/icon-192.png' },
     ],
-    permalink: '/2-icons/png-16-png-192/',
+    permalink: '/2formats/png-16-png-192/',
   },
   {
     title: 'PNG 24×24, PNG 16×16',
@@ -37,7 +37,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-24.png' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/2-icons/png-24-png-16/',
+    permalink: '/2formats/png-24-png-16/',
   },
   {
     title: 'PNG 32×32, PNG 16×16',
@@ -45,7 +45,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-32.png' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/2-icons/png-32-png-16/',
+    permalink: '/2formats/png-32-png-16/',
   },
   {
     title: 'PNG 48×48, PNG 16×16',
@@ -53,7 +53,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-48.png' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/2-icons/png-48-png-16/',
+    permalink: '/2formats/png-48-png-16/',
   },
   {
     title: 'PNG 192×192, PNG 16×16',
@@ -61,7 +61,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-192.png' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/2-icons/png-192-png-16/',
+    permalink: '/2formats/png-192-png-16/',
   },
   {
     title: 'PNG 192×192, PNG 256×256',
@@ -69,7 +69,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-192.png' },
       { href: '/assets/icons/png/icon-256.png' },
     ],
-    permalink: '/2-icons/png-192-png-256/',
+    permalink: '/2formats/png-192-png-256/',
   },
   {
     title: 'PNG 192×192, PNG 512×512',
@@ -77,6 +77,6 @@ module.exports = [
       { href: '/assets/icons/png/icon-192.png' },
       { href: '/assets/icons/png/icon-512.png' },
     ],
-    permalink: '/2-icons/png-192-png-512/',
+    permalink: '/2formats/png-192-png-512/',
   },
 ];
