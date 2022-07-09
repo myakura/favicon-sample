@@ -4,6 +4,6 @@ module.exports = [
   ...require('./typeMismatch.js'),
   ...require('./extSpoofing.js'),
   ...require('./2formats.js'),
-  ...require('./3-icons.js'),
+  ...require('./3formats.js'),
   ...require('./typeAttribute.js'),
 ];

@@ -48,7 +48,7 @@ layout: template.njk
 ## pages with three `<link>` elements
 
 <ul>
-{% for item in 3-icons %}
+{% for item in 3formats %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
