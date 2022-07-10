@@ -59,4 +59,24 @@ module.exports = [
     ],
     permalink: '/type-mismatch/type-svg-file-png/',
   },
+  {
+    title: 'PNG (type="image")',
+    icons: [
+      {
+        type: 'image',
+        href: '/assets/icons/png/icon-16.png',
+      },
+    ],
+    permalink: '/type-mismatch/type-image-file-png/',
+  },
+  {
+    title: 'PNG (type="application/octet-stream")',
+    icons: [
+      {
+        type: 'application/octet-stream',
+        href: '/assets/icons/png/icon-16.png',
+      },
+    ],
+    permalink: '/type-mismatch/type-octetstream-file-png/',
+  },
 ];
