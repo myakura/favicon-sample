@@ -3,9 +3,7 @@ layout: template.njk
 ---
 # favicons!
 
-## pages with single `<link>` element
-
-### formats
+## formats
 
 <ul>
 {% for item in format %}
@@ -13,7 +11,7 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-### markup
+## markup
 
 <ul>
 {% for item in markup %}
@@ -21,7 +19,7 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-### type mismatch
+## type mismatch
 
 <ul>
 {% for item in typeMismatch %}
@@ -29,7 +27,7 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-### file extension spoofing
+## spoofing file extensions
 
 <ul>
 {% for item in extSpoofing %}
@@ -37,7 +35,8 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-## pages with two `<link>` elements
+
+## two formats
 
 <ul>
 {% for item in 2formats %}
@@ -45,7 +44,8 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-## pages with three `<link>` elements
+
+## three formats
 
 <ul>
 {% for item in 3formats %}
@@ -53,7 +53,7 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-## multiple `<link>` elements with or without type attributes
+## with or without `type` attributes
 
 <ul>
 {% for item in typeAttribute %}
