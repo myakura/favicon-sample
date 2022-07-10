@@ -6,4 +6,5 @@ module.exports = [
   ...require('./2formats.js'),
   ...require('./3formats.js'),
   ...require('./typeAttribute.js'),
+  ...require('./dataUrl.js'),
 ];
