@@ -30,24 +30,24 @@ module.exports = [
     permalink: '/type-mismatch/type-text-file-png/',
   },
   {
-    title: 'JPEG (type="invalid")',
+    title: 'PNG (type="image/bogus")',
     icons: [
       {
-        type: 'invalid',
-        href: '/assets/icons/jpg/icon-16.jpg',
+        type: 'image/bogus',
+        href: '/assets/icons/png/icon-16.png',
       },
     ],
-    permalink: '/type-mismatch/type-invalid-file-jpg/',
+    permalink: '/type-mismatch/type-image-bogus-file-png/',
   },
   {
-    title: 'JPEG (type="")',
+    title: 'PNG (type="")',
     icons: [
       {
         type: '',
-        href: '/assets/icons/jpg/icon-16.jpg',
+        href: '/assets/icons/png/icon-16.png',
       },
     ],
-    permalink: '/type-mismatch/type-blank-file-jpg/',
+    permalink: '/type-mismatch/type-blank-file-png/',
   },
   {
     title: 'PNG (type="image/svg+xml")',
