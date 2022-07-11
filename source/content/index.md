@@ -76,3 +76,11 @@ layout: template.njk
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
+
+## light and dark modes
+
+<ul>
+{% for item in lightDark %}
+<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>

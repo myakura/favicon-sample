@@ -8,4 +8,5 @@ module.exports = [
   ...require('./typeAttribute.js'),
   ...require('./dataUrl.js'),
   ...require('./notFound.js'),
+  ...require('./lightDark.js'),
 ];
