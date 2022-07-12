@@ -9,5 +9,7 @@ module.exports = [
   ...require('./typeAttribute.js'),
   ...require('./dataUrl.js'),
   ...require('./notFound.js'),
+  ...require('./mediaAttribute.js'),
+  ...require('./mediaQueries.js'),
   ...require('./lightDark.js'),
 ];
