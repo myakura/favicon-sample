@@ -21,7 +21,7 @@ module.exports = [
       { href: '/assets/icons/ico/icon.ico', rel: 'alternate icon' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/rel-alternate/ico-png-alternate/',
+    permalink: '/rel-alternate/ico-alternate-png/',
   },
   {
     title: 'ICO (rel="alternate icon"), PNG (rel="alternate icon")',
@@ -30,7 +30,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', rel: 'alternate icon' },
 
     ],
-    permalink: '/rel-alternate/ico-png-alternate/',
+    permalink: '/rel-alternate/ico-alternate-png-alternate/',
   },
 
   {
@@ -55,7 +55,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', rel: 'alternate icon' },
       { href: '/assets/icons/svg/icon-16.svg' },
     ],
-    permalink: '/rel-alternate/png-svg-alternate/',
+    permalink: '/rel-alternate/png-alternate-svg/',
   },
   {
     title: 'PNG (rel="alternate icon"), SVG (rel="alternate icon")',
@@ -64,6 +64,6 @@ module.exports = [
       { href: '/assets/icons/svg/icon-16.svg', rel: 'alternate icon' },
 
     ],
-    permalink: '/rel-alternate/png-svg-alternate/',
+    permalink: '/rel-alternate/png-alternate-svg-alternate/',
   },
 ]
