@@ -19,6 +19,14 @@ layout: template.njk
 {% endfor %}
 </ul>
 
+## `rel="alternate"`
+
+<ul>
+{% for item in relAlternate %}
+<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+
 ## type mismatch
 
 <ul>
