@@ -20,17 +20,6 @@ module.exports = [
     permalink: '/light-dark/dark/',
   },
   {
-    title: 'PNG, PNG dark mode',
-    icons: [
-      { href: '/assets/icons/png/icon-16.png' },
-      {
-        href: '/assets/icons/png-dark/icon-16.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-    ],
-    permalink: '/light-dark/nomedia-dark/',
-  },
-  {
     title: 'PNG, PNG light mode',
     icons: [
       { href: '/assets/icons/png-dark/icon-16.png' },
@@ -40,6 +29,17 @@ module.exports = [
       },
     ],
     permalink: '/light-dark/nomedia-light/',
+  },
+  {
+    title: 'PNG, PNG dark mode',
+    icons: [
+      { href: '/assets/icons/png/icon-16.png' },
+      {
+        href: '/assets/icons/png-dark/icon-16.png',
+        media: '(prefers-color-scheme: dark)',
+      },
+    ],
+    permalink: '/light-dark/nomedia-dark/',
   },
   {
     title: 'PNG light mode, PNG dark mode',
