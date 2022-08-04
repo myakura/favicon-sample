@@ -32,7 +32,6 @@ module.exports = [
     ],
     permalink: '/rel-alternate/ico-alternate-png-alternate/',
   },
-
   {
     title: 'PNG, SVG',
     icons: [
@@ -62,7 +61,6 @@ module.exports = [
     icons: [
       { href: '/assets/icons/png/icon-16.png', rel: 'alternate icon' },
       { href: '/assets/icons/svg/icon-16.svg', rel: 'alternate icon' },
-
     ],
     permalink: '/rel-alternate/png-alternate-svg-alternate/',
   },
