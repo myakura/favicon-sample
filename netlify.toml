@@ -17,3 +17,13 @@
   for = "/assets/icons/type-octetstream/*"
   [headers.values]
     Content-Type = "application/octet-stream"
+
+[[headers]]
+  for = "/assets/icons/type-image/*"
+  [headers.values]
+    Content-Type = "image"
+
+[[headers]]
+  for = "/assets/icons/type-bogus/*"
+  [headers.values]
+    Content-Type = "bogus"
