@@ -116,3 +116,19 @@ layout: template.njk
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
+
+## icons served as `image`
+
+<ul>
+{% for item in typeImage %}
+<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+
+## icons served as `bogus`
+
+<ul>
+{% for item in typeBogus %}
+<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>

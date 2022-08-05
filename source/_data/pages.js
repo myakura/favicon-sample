@@ -13,4 +13,6 @@ module.exports = [
   ...require('./mediaQueries.js'),
   ...require('./lightDark.js'),
   ...require('./typeOctetStream.js'),
+  ...require('./typeImage.js'),
+  ...require('./typeBogus.js'),
 ];
