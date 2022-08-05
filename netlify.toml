@@ -12,3 +12,8 @@
   for = "/assets/icons/avif/*"
   [headers.values]
     Content-Type = "image/avif"
+
+[[headers]]
+  for = "/assets/icons/type-octetstream/*"
+  [headers.values]
+    Content-Type = "application/octet-stream"
