@@ -12,4 +12,5 @@ module.exports = [
   ...require('./mediaAttribute.js'),
   ...require('./mediaQueries.js'),
   ...require('./lightDark.js'),
+  ...require('./typeOctetStream.js'),
 ];

@@ -108,3 +108,11 @@ layout: template.njk
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
+
+## icons served as `application/octet-stream`
+
+<ul>
+{% for item in typeOctetStream %}
+<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
