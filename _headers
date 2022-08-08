@@ -1,0 +1,14 @@
+/assets/icons/jxl/*
+  Content-Type: image/jxl
+
+/assets/icons/avif/*
+  Content-Type: image/avif
+
+/assets/icons/type-octetstream/*
+  Content-Type: application/octet-stream
+
+/assets/icons/type-image/*
+  Content-Type: image
+
+/assets/icons/type-bogus/*
+  Content-Type: bogus
