@@ -4,14 +4,14 @@ module.exports = [
     icons: [
       { href: '/assets/icons/png/icon-16.png', media: '(prefers-color-scheme: light)' },
     ],
-    permalink: '/light-dark/light/',
+    permalink: '/media/light-dark/light/',
   },
   {
     title: 'PNG dark mode',
     icons: [
       { href: '/assets/icons/png-dark/icon-16.png', media: '(prefers-color-scheme: dark)' },
     ],
-    permalink: '/light-dark/dark/',
+    permalink: '/media/light-dark/dark/',
   },
   {
     title: 'PNG, PNG light mode',
@@ -19,7 +19,7 @@ module.exports = [
       { href: '/assets/icons/png-dark/icon-16.png' },
       { href: '/assets/icons/png/icon-16.png', media: '(prefers-color-scheme: light)' },
     ],
-    permalink: '/light-dark/nomedia-light/',
+    permalink: '/media/light-dark/nomedia-light/',
   },
   {
     title: 'PNG light mode, PNG',
@@ -27,7 +27,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', media: '(prefers-color-scheme: light)' },
       { href: '/assets/icons/png-dark/icon-16.png' },
     ],
-    permalink: '/light-dark/light-nomedia/',
+    permalink: '/media/light-dark/light-nomedia/',
   },
   {
     title: 'PNG, PNG dark mode',
@@ -35,7 +35,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/png-dark/icon-16.png', media: '(prefers-color-scheme: dark)' },
     ],
-    permalink: '/light-dark/nomedia-dark/',
+    permalink: '/media/light-dark/nomedia-dark/',
   },
   {
     title: 'PNG dark mode, PNG',
@@ -43,7 +43,7 @@ module.exports = [
       { href: '/assets/icons/png-dark/icon-16.png', media: '(prefers-color-scheme: dark)' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/light-dark/dark-nomedia/',
+    permalink: '/media/light-dark/dark-nomedia/',
   },
   {
     title: 'PNG light mode, PNG dark mode',
@@ -51,7 +51,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', media: '(prefers-color-scheme: light)' },
       { href: '/assets/icons/png-dark/icon-16.png', media: '(prefers-color-scheme: dark)' },
     ],
-    permalink: '/light-dark/light-dark/',
+    permalink: '/media/light-dark/media/light-dark/',
   },
   {
     title: 'PNG dark mode, PNG light mode',
@@ -59,6 +59,6 @@ module.exports = [
       { href: '/assets/icons/png-dark/icon-16.png', media: '(prefers-color-scheme: dark)' },
       { href: '/assets/icons/png/icon-16.png', media: '(prefers-color-scheme: light)' },
     ],
-    permalink: '/light-dark/dark-light/',
+    permalink: '/media/light-dark/dark-light/',
   },
 ];
