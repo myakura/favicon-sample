@@ -35,18 +35,18 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-## `rel="alternate"`
+## URLs
 
 <ul>
-{% for item in relAlternate %}
+{% for item in url %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
 
-## spoofing file extensions
+## `rel="alternate"`
 
 <ul>
-{% for item in extSpoofing %}
+{% for item in relAlternate %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
@@ -65,22 +65,6 @@ layout: template.njk
 
 <ul>
 {% for item in 3formats %}
-<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-
-## data: URLs
-
-<ul>
-{% for item in dataUrl %}
-<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-
-## pointing to 404
-
-<ul>
-{% for item in notFound %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>

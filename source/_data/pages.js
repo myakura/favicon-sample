@@ -3,10 +3,8 @@ module.exports = [
   ...require('./markup.js'),
   ...require('./type.js'),
   ...require('./media.js'),
+  ...require('./url.js'),
   ...require('./relAlternate.js'),
-  ...require('./extSpoofing.js'),
   ...require('./2formats.js'),
   ...require('./3formats.js'),
-  ...require('./dataUrl.js'),
-  ...require('./notFound.js'),
 ];
