@@ -4,7 +4,6 @@ module.exports = [
   ...require('./type.js'),
   ...require('./media.js'),
   ...require('./url.js'),
-  ...require('./relAlternate.js'),
   ...require('./2formats.js'),
   ...require('./3formats.js'),
 ];
