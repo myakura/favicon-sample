@@ -27,6 +27,14 @@ layout: template.njk
 {% endfor %}
 </ul>
 
+## media queries
+
+<ul>
+{% for item in media %}
+<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+
 ## `rel="alternate"`
 
 <ul>
@@ -73,30 +81,6 @@ layout: template.njk
 
 <ul>
 {% for item in notFound %}
-<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-
-## media types
-
-<ul>
-{% for item in mediaAttribute %}
-<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-
-## media queries
-
-<ul>
-{% for item in mediaQueries %}
-<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-
-## light and dark modes
-
-<ul>
-{% for item in lightDark %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
