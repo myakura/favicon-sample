@@ -19,18 +19,18 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-## `rel="alternate"`
+## MIME type
 
 <ul>
-{% for item in relAlternate %}
+{% for item in type %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
 
-## type mismatch
+## `rel="alternate"`
 
 <ul>
-{% for item in typeMismatch %}
+{% for item in relAlternate %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
@@ -57,14 +57,6 @@ layout: template.njk
 
 <ul>
 {% for item in 3formats %}
-<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-
-## with or without `type` attributes
-
-<ul>
-{% for item in typeAttribute %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
@@ -105,30 +97,6 @@ layout: template.njk
 
 <ul>
 {% for item in lightDark %}
-<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-
-## icons served as `application/octet-stream`
-
-<ul>
-{% for item in typeOctetStream %}
-<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-
-## icons served as `image`
-
-<ul>
-{% for item in typeImage %}
-<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
-
-## icons served as `bogus`
-
-<ul>
-{% for item in typeBogus %}
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
