@@ -5,7 +5,7 @@ module.exports = [
       { href: '/assets/icons/ico/icon.ico' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/rel-alternate/ico-png/',
+    permalink: '/markup/rel-alternate/ico-png/',
   },
   {
     title: 'ICO, PNG (rel="alternate icon")',
@@ -13,7 +13,7 @@ module.exports = [
       { href: '/assets/icons/ico/icon.ico' },
       { href: '/assets/icons/png/icon-16.png', rel: 'alternate icon' },
     ],
-    permalink: '/rel-alternate/ico-png-alternate/',
+    permalink: '/markup/rel-alternate/ico-png-alternate/',
   },
   {
     title: 'ICO (rel="alternate icon"), PNG',
@@ -21,7 +21,7 @@ module.exports = [
       { href: '/assets/icons/ico/icon.ico', rel: 'alternate icon' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/rel-alternate/ico-alternate-png/',
+    permalink: '/markup/rel-alternate/ico-alternate-png/',
   },
   {
     title: 'ICO (rel="alternate icon"), PNG (rel="alternate icon")',
@@ -30,7 +30,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', rel: 'alternate icon' },
 
     ],
-    permalink: '/rel-alternate/ico-alternate-png-alternate/',
+    permalink: '/markup/rel-alternate/ico-alternate-png-alternate/',
   },
   {
     title: 'PNG, SVG',
@@ -38,7 +38,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/svg/icon-16.svg' },
     ],
-    permalink: '/rel-alternate/png-svg/',
+    permalink: '/markup/rel-alternate/png-svg/',
   },
   {
     title: 'PNG, SVG (rel="alternate icon")',
@@ -46,7 +46,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/svg/icon-16.svg', rel: 'alternate icon' },
     ],
-    permalink: '/rel-alternate/png-svg-alternate/',
+    permalink: '/markup/rel-alternate/png-svg-alternate/',
   },
   {
     title: 'PNG (rel="alternate icon"), SVG',
@@ -54,7 +54,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', rel: 'alternate icon' },
       { href: '/assets/icons/svg/icon-16.svg' },
     ],
-    permalink: '/rel-alternate/png-alternate-svg/',
+    permalink: '/markup/rel-alternate/png-alternate-svg/',
   },
   {
     title: 'PNG (rel="alternate icon"), SVG (rel="alternate icon")',
@@ -62,6 +62,6 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', rel: 'alternate icon' },
       { href: '/assets/icons/svg/icon-16.svg', rel: 'alternate icon' },
     ],
-    permalink: '/rel-alternate/png-alternate-svg-alternate/',
+    permalink: '/markup/rel-alternate/png-alternate-svg-alternate/',
   },
 ]
