@@ -1,4 +1,4 @@
-const { createDataUrl } = require('../_lib/createDataUrl.js');
+const { createDataUrl } = require('../../_lib/createDataUrl.js');
 
 module.exports = [
   {
