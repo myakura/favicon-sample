@@ -4,14 +4,14 @@ module.exports = [
     icons: [
       { href: '/assets/icons/type-octetstream/icon-16.png' },
     ],
-    permalink: '/type-octetstream/type-os-png/',
+    permalink: '/type/type-octetstream/type-os-png/',
   },
   {
     title: 'SVG served as `application/octet-stream`',
     icons: [
       { href: '/assets/icons/type-octetstream/icon-16.svg' },
     ],
-    permalink: '/type-octetstream/type-os-svg/',
+    permalink: '/type/type-octetstream/type-os-svg/',
   },
 
   {
@@ -20,7 +20,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/type-octetstream/icon-16.png' },
     ],
-    permalink: '/type-octetstream/png-type-os-png/',
+    permalink: '/type/type-octetstream/png-type-os-png/',
   },
   {
     title: 'SVG, SVG served as `application/octet-stream`',
@@ -28,7 +28,7 @@ module.exports = [
       { href: '/assets/icons/svg/icon-16.svg' },
       { href: '/assets/icons/type-octetstream/icon-16.svg' },
     ],
-    permalink: '/type-octetstream/svg-type-os-svg/',
+    permalink: '/type/type-octetstream/svg-type-os-svg/',
   },
 
   {
@@ -37,7 +37,7 @@ module.exports = [
       { href: '/assets/icons/type-octetstream/icon-16.png' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/type-octetstream/type-os-png-png/',
+    permalink: '/type/type-octetstream/type-os-png-png/',
   },
   {
     title: 'SVG served as `application/octet-stream`, SVG',
@@ -45,7 +45,7 @@ module.exports = [
       { href: '/assets/icons/type-octetstream/icon-16.svg' },
       { href: '/assets/icons/svg/icon-16.svg' },
     ],
-    permalink: '/type-octetstream/type-os-svg-svg/',
+    permalink: '/type/type-octetstream/type-os-svg-svg/',
   },
 
   {
@@ -54,7 +54,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/type-octetstream/icon-16.svg' },
     ],
-    permalink: '/type-octetstream/png-type-os-svg/',
+    permalink: '/type/type-octetstream/png-type-os-svg/',
   },
   {
     title: 'SVG served as `application/octet-stream`, PNG',
@@ -62,7 +62,7 @@ module.exports = [
       { href: '/assets/icons/type-octetstream/icon-16.svg' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/type-octetstream/type-os-svg-png/',
+    permalink: '/type/type-octetstream/type-os-svg-png/',
   },
 
   {
@@ -71,7 +71,7 @@ module.exports = [
       { href: '/assets/icons/svg/icon-16.svg' },
       { href: '/assets/icons/type-octetstream/icon-16.png' },
     ],
-    permalink: '/type-octetstream/svg-type-os-png/',
+    permalink: '/type/type-octetstream/svg-type-os-png/',
   },
   {
     title: 'PNG served as `application/octet-stream`, SVG',
@@ -79,7 +79,7 @@ module.exports = [
       { href: '/assets/icons/type-octetstream/icon-16.png' },
       { href: '/assets/icons/svg/icon-16.svg' },
     ],
-    permalink: '/type-octetstream/type-os-png-svg/',
+    permalink: '/type/type-octetstream/type-os-png-svg/',
   },
 
   {
@@ -88,7 +88,7 @@ module.exports = [
       { href: '/assets/icons/type-octetstream/icon-16.png' },
       { href: '/assets/icons/type-octetstream/icon-16.svg' },
     ],
-    permalink: '/type-octetstream/type-os-png-type-os-svg/',
+    permalink: '/type/type-octetstream/type-os-png-type-os-svg/',
   },
   {
     title: 'SVG served as `application/octet-stream`, PNG served as `application/octet-stream`',
@@ -96,6 +96,6 @@ module.exports = [
       { href: '/assets/icons/type-octetstream/icon-16.svg' },
       { href: '/assets/icons/type-octetstream/icon-16.png' },
     ],
-    permalink: '/type-octetstream/type-os-svg-type-os-png/',
+    permalink: '/type/type-octetstream/type-os-svg-type-os-png/',
   },
 ]

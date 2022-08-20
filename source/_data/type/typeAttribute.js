@@ -5,7 +5,7 @@ module.exports = [
       { href: '/assets/icons/ico/icon.ico' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/type-attribute/ico-png/',
+    permalink: '/type/type-attribute/ico-png/',
   },
   {
     title: 'PNG, ICO ― without type attributes',
@@ -13,7 +13,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/ico/icon.ico' },
     ],
-    permalink: '/type-attribute/png-ico/',
+    permalink: '/type/type-attribute/png-ico/',
   },
 
   {
@@ -22,7 +22,7 @@ module.exports = [
       { href: '/assets/icons/ico/icon.ico', type: 'image/vnd.microsoft.icon' },
       { href: '/assets/icons/png/icon-16.png', type: 'image/png' },
     ],
-    permalink: '/type-attribute/ico-png-with-type/',
+    permalink: '/type/type-attribute/ico-png-with-type/',
   },
   {
     title: 'PNG, ICO ― with type attributes',
@@ -30,7 +30,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', type: 'image/png' },
       { href: '/assets/icons/ico/icon.ico', type: 'image/vnd.microsoft.icon' },
     ],
-    permalink: '/type-attribute/png-ico-with-type/',
+    permalink: '/type/type-attribute/png-ico-with-type/',
   },
 
   {
@@ -39,7 +39,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/svg/icon-16.svg' },
     ],
-    permalink: '/type-attribute/png-svg/',
+    permalink: '/type/type-attribute/png-svg/',
   },
   {
     title: 'SVG, PNG ― without type attributes',
@@ -47,7 +47,7 @@ module.exports = [
       { href: '/assets/icons/svg/icon-16.svg' },
       { href: '/assets/icons/png/icon-16.png' },
     ],
-    permalink: '/type-attribute/svg-png/',
+    permalink: '/type/type-attribute/svg-png/',
   },
 
   {
@@ -56,7 +56,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', type: 'image/png' },
       { href: '/assets/icons/svg/icon-16.svg', type: 'image/svg+xml' },
     ],
-    permalink: '/type-attribute/png-svg-with-type/',
+    permalink: '/type/type-attribute/png-svg-with-type/',
   },
   {
     title: 'SVG, PNG ― with type attributes',
@@ -64,7 +64,7 @@ module.exports = [
       { href: '/assets/icons/svg/icon-16.svg', type: 'image/svg+xml' },
       { href: '/assets/icons/png/icon-16.png', type: 'image/png' },
     ],
-    permalink: '/type-attribute/svg-png-with-type/',
+    permalink: '/type/type-attribute/svg-png-with-type/',
   },
 
   {
@@ -74,7 +74,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/svg/icon-16.svg' },
     ],
-    permalink: '/type-attribute/ico-png-svg/',
+    permalink: '/type/type-attribute/ico-png-svg/',
   },
   {
     title: 'SVG, PNG, ICO ― without type attributes',
@@ -83,7 +83,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png' },
       { href: '/assets/icons/ico/icon.ico' },
     ],
-    permalink: '/type-attribute/svg-png-ico/',
+    permalink: '/type/type-attribute/svg-png-ico/',
   },
 
   {
@@ -93,7 +93,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', type: 'image/png' },
       { href: '/assets/icons/svg/icon-16.svg', type: 'image/svg+xml' },
     ],
-    permalink: '/type-attribute/ico-png-svg-with-type/',
+    permalink: '/type/type-attribute/ico-png-svg-with-type/',
   },
   {
     title: 'SVG, PNG, ICO ― with type attributes',
@@ -102,6 +102,6 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', type: 'image/png' },
       { href: '/assets/icons/ico/icon.ico', type: 'image/vnd.microsoft.icon' },
     ],
-    permalink: '/type-attribute/svg-png-ico-with-type/',
+    permalink: '/type/type-attribute/svg-png-ico-with-type/',
   },
 ]
