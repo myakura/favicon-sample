@@ -35,6 +35,14 @@ layout: template.njk
 {% endfor %}
 </ul>
 
+## sizes
+
+<ul>
+{% for item in sizes %}
+<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+
 ## URLs
 
 <ul>
