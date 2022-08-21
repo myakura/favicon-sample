@@ -4,4 +4,5 @@ module.exports = [
   ...require('./markup/withoutShortcutWithType.js'),
   ...require('./markup/withoutShortcutWithoutType.js'),
   ...require('./markup/relAlternate.js'),
+  ...require('./markup/relOtherValues.js'),
 ];
