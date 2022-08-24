@@ -46,7 +46,7 @@ const svgAnyTypePng = sizes.map((size) => {
 
 const pngSizesSvgAnyType = sizes.map((size) => {
   return {
-    title: `PNG (${size}x${size} w/o type), SVG (any, type)`,
+    title: `PNG (${size}x${size}), SVG (any, type)`,
     icons: [
       { href: `/assets/icons/png/icon-${size}.png`, sizes: `${size}x${size}` },
       { href: '/assets/icons/svg/icon-16.svg', sizes: 'any', type: 'image/svg+xml' },
@@ -57,7 +57,7 @@ const pngSizesSvgAnyType = sizes.map((size) => {
 
 const svgAnyTypePngSizes = sizes.map((size) => {
   return {
-    title: `SVG (any, type), PNG (${size}x${size} w/o type)`,
+    title: `SVG (any, type), PNG (${size}x${size})`,
     icons: [
       { href: '/assets/icons/svg/icon-16.svg', sizes: 'any', type: 'image/svg+xml' },
       { href: `/assets/icons/png/icon-${size}.png`, sizes: `${size}x${size}` },
@@ -115,6 +115,8 @@ module.exports = [
   ...svgPngTypeSizesType,
   ...pngSvgAnyType,
   ...svgAnyTypePng,
+  ...pngSizesSvgAnyType,
+  ...svgAnyTypePngSizes,
   ...pngTypeSvgAnyType,
   ...svgAnyTypePngType,
   ...pngSizesTypeSvgAnyType,
