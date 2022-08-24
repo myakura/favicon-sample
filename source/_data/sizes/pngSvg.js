@@ -35,7 +35,7 @@ const pngSvgAny = sizes.map((size) => {
 
 const svgAnyPng = sizes.map((size) => {
   return {
-    title: 'SVG (any), PNG (${size}x${size} w/o sizes)',
+    title: `SVG (any), PNG (${size}x${size} w/o sizes)`,
     icons: [
       { href: '/assets/icons/svg/icon-16.svg', sizes: 'any' },
       { href: `/assets/icons/png/icon-${size}.png` },
