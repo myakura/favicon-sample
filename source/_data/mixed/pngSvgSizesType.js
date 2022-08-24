@@ -1,4 +1,4 @@
-const sizes = [16, 24, 32, 48, 96, 192, 256, 512];
+const sizes = [16, 32, 48];
 
 const pngSizesTypeSvgType = sizes.map((size) => {
   return {
