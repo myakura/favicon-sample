@@ -24,23 +24,67 @@ const svgPngTypeSizesType = sizes.map((size) => {
 
 const pngSvgAnyType = sizes.map((size) => {
   return {
-    title: `PNG (${size}x${size} w/o sizes w/o type), SVG (any, type)`,
+    title: `PNG (${size}x${size} w/o sizes), SVG (any, type)`,
     icons: [
       { href: `/assets/icons/png/icon-${size}.png` },
+      { href: '/assets/icons/svg/icon-16.svg', sizes: 'any', type: 'image/svg+xml' },
+    ],
+    permalink: `/mixed/png-svg-sizes-type/png-${size}-nosizes-svg-any-type/`,
+  };
+});
+
+const svgAnyTypePng = sizes.map((size) => {
+  return {
+    title: `SVG (any, type), PNG (${size}x${size} w/o sizes)`,
+    icons: [
+      { href: '/assets/icons/svg/icon-16.svg', sizes: 'any', type: 'image/svg+xml' },
+      { href: `/assets/icons/png/icon-${size}.png` },
+    ],
+    permalink: `/mixed/png-svg-sizes-type/svg-any-type-png-${size}-nosizes/`,
+  };
+});
+
+const pngSizesSvgAnyType = sizes.map((size) => {
+  return {
+    title: `PNG (${size}x${size} w/o type), SVG (any, type)`,
+    icons: [
+      { href: `/assets/icons/png/icon-${size}.png`, sizes: `${size}x${size}` },
       { href: '/assets/icons/svg/icon-16.svg', sizes: 'any', type: 'image/svg+xml' },
     ],
     permalink: `/mixed/png-svg-sizes-type/png-${size}-nosizes-notype-svg-any-type/`,
   };
 });
 
-const svgAnyTypePng = sizes.map((size) => {
+const svgAnyTypePngSizes = sizes.map((size) => {
   return {
-    title: `SVG (any, type), PNG (${size}x${size} w/o sizes w/o type)`,
+    title: `SVG (any, type), PNG (${size}x${size} w/o type)`,
     icons: [
       { href: '/assets/icons/svg/icon-16.svg', sizes: 'any', type: 'image/svg+xml' },
-      { href: `/assets/icons/png/icon-${size}.png` },
+      { href: `/assets/icons/png/icon-${size}.png`, sizes: `${size}x${size}` },
     ],
     permalink: `/mixed/png-svg-sizes-type/svg-any-type-png-${size}-nosizes-notype/`,
+  };
+});
+
+const pngTypeSvgAnyType = sizes.map((size) => {
+  return {
+    title: `PNG (${size}x${size} w/o sizes, type), SVG (any, type)`,
+    icons: [
+      { href: `/assets/icons/png/icon-${size}.png`, type: 'image/png' },
+      { href: '/assets/icons/svg/icon-16.svg', sizes: 'any', type: 'image/svg+xml' },
+    ],
+    permalink: `/mixed/png-svg-sizes-type/png-${size}-nosizes-type-svg-any-type/`,
+  };
+});
+
+const svgAnyTypePngType = sizes.map((size) => {
+  return {
+    title: `SVG (any, type), PNG (${size}x${size} w/o sizes, type)`,
+    icons: [
+      { href: '/assets/icons/svg/icon-16.svg', sizes: 'any', type: 'image/svg+xml' },
+      { href: `/assets/icons/png/icon-${size}.png`, type: 'image/png' },
+    ],
+    permalink: `/mixed/png-svg-sizes-type/svg-any-type-png-${size}-nosizes-type/`,
   };
 });
 
@@ -71,6 +115,8 @@ module.exports = [
   ...svgPngTypeSizesType,
   ...pngSvgAnyType,
   ...svgAnyTypePng,
+  ...pngTypeSvgAnyType,
+  ...svgAnyTypePngType,
   ...pngSizesTypeSvgAnyType,
   ...svgAnyTypePngSizesType,
 ];
