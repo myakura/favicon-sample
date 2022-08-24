@@ -24,23 +24,23 @@ const svgPngSizes = sizes.map((size) => {
 
 const pngSvgAny = sizes.map((size) => {
   return {
-    title: 'PNG, SVG (any)',
+    title: `PNG (${size}x${size} w/o sizes), SVG (any)`,
     icons: [
       { href: `/assets/icons/png/icon-${size}.png` },
       { href: '/assets/icons/svg/icon-16.svg', sizes: 'any' },
     ],
-    permalink: '/sizes/png-svg/png-svg-any/',
+    permalink: `/sizes/png-svg/png-${size}-nosizes-svg-any/`,
   };
 });
 
 const svgAnyPng = sizes.map((size) => {
   return {
-    title: 'SVG (any), PNG',
+    title: 'SVG (any), PNG (${size}x${size} w/o sizes)',
     icons: [
       { href: '/assets/icons/svg/icon-16.svg', sizes: 'any' },
       { href: `/assets/icons/png/icon-${size}.png` },
     ],
-    permalink: '/sizes/png-svg/svg-any-png/',
+    permalink: `/sizes/png-svg/svg-any-png-${size}-nosizes/`,
   };
 });
 

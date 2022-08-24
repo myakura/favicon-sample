@@ -24,23 +24,23 @@ const icoPngSizes = sizes.map((size) => {
 
 const pngIcoAny = sizes.map((size) => {
   return {
-    title: 'PNG, ICO (any)',
+    title: `PNG (${size}x${size} w/o sizes), ICO (any)`,
     icons: [
       { href: `/assets/icons/png/icon-${size}.png` },
       { href: '/assets/icons/ico/icon.ico', sizes: 'any' },
     ],
-    permalink: '/sizes/png-ico/png-ico-any/',
+    permalink: `/sizes/png-ico/png-${size}-nosizes-ico-any/`,
   };
 });
 
 const icoAnyPng = sizes.map((size) => {
   return {
-    title: 'ICO (any), PNG',
+    title: `ICO (any), PNG (${size}x${size} w/o sizes)`,
     icons: [
       { href: '/assets/icons/ico/icon.ico', sizes: 'any' },
       { href: `/assets/icons/png/icon-${size}.png` },
     ],
-    permalink: '/sizes/png-ico/ico-any-png/',
+    permalink: `/sizes/png-ico/ico-any-png-${size}-nosizes/`,
   };
 });
 
