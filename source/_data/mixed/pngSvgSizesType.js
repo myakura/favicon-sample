@@ -1,5 +1,27 @@
 const sizes = [16, 32, 48];
 
+const pngSizesSvgType = sizes.map((size) => {
+  return {
+    title: `PNG (${size}x${size}), SVG (type)`,
+    icons: [
+      { href: `/assets/icons/png/icon-${size}.png`, sizes: `${size}x${size}` },
+      { href: '/assets/icons/svg/icon-16.svg', type: 'image/svg+xml' },
+    ],
+    permalink: `/mixed/png-svg-sizes-type/png-${size}-svg-type/`,
+  };
+});
+
+const svgTypePngSizes = sizes.map((size) => {
+  return {
+    title: `SVG (type), PNG (${size}x${size})`,
+    icons: [
+      { href: '/assets/icons/svg/icon-16.svg', type: 'image/svg+xml' },
+      { href: `/assets/icons/png/icon-${size}.png`, sizes: `${size}x${size}` },
+    ],
+    permalink: `/mixed/png-svg-sizes-type/svg-type-png-${size}/`,
+  };
+});
+
 const pngSizesTypeSvgType = sizes.map((size) => {
   return {
     title: `PNG (${size}x${size}, type), SVG (type)`,
@@ -111,6 +133,8 @@ const svgAnyTypePngSizesType = sizes.map((size) => {
 });
 
 module.exports = [
+  ...pngSizesSvgType,
+  ...svgTypePngSizes,
   ...pngSizesTypeSvgType,
   ...svgTypePngSizesType,
   ...pngSvgAnyType,
