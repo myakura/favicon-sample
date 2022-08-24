@@ -7,4 +7,5 @@ module.exports = [
   ...require('./url.js'),
   ...require('./2formats.js'),
   ...require('./3formats.js'),
+  ...require('./mixed.js'),
 ];

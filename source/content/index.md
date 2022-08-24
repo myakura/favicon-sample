@@ -68,3 +68,12 @@ layout: template.njk
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
+
+
+## mixed
+
+<ul>
+{% for item in mixed %}
+<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
