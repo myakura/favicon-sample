@@ -11,7 +11,7 @@ const pngSizesTypeSvgType = sizes.map((size) => {
   };
 });
 
-const svgPngTypeSizesType = sizes.map((size) => {
+const svgTypePngSizesType = sizes.map((size) => {
   return {
     title: `SVG (type), PNG (${size}x${size}, type)`,
     icons: [
@@ -112,7 +112,7 @@ const svgAnyTypePngSizesType = sizes.map((size) => {
 
 module.exports = [
   ...pngSizesTypeSvgType,
-  ...svgPngTypeSizesType,
+  ...svgTypePngSizesType,
   ...pngSvgAnyType,
   ...svgAnyTypePng,
   ...pngSizesSvgAnyType,
