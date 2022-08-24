@@ -22,6 +22,28 @@ const svgPngSizes = sizes.map((size) => {
   };
 });
 
+const pngSvgAny = sizes.map((size) => {
+  return {
+    title: 'PNG, SVG (any)',
+    icons: [
+      { href: `/assets/icons/png/icon-${size}.png` },
+      { href: '/assets/icons/svg/icon-16.svg', sizes: 'any' },
+    ],
+    permalink: '/sizes/png-svg/png-svg-any/',
+  };
+});
+
+const svgAnyPng = sizes.map((size) => {
+  return {
+    title: 'SVG (any), PNG',
+    icons: [
+      { href: '/assets/icons/svg/icon-16.svg', sizes: 'any' },
+      { href: `/assets/icons/png/icon-${size}.png` },
+    ],
+    permalink: '/sizes/png-svg/svg-any-png/',
+  };
+});
+
 const pngSizesSvgAny = sizes.map((size) => {
   return {
     title: `PNG (${size}x${size}), SVG (any)`,
@@ -47,6 +69,8 @@ const svgAnyPngSizes = sizes.map((size) => {
 module.exports = [
   ...pngSizesSvg,
   ...svgPngSizes,
+  ...pngSvgAny,
+  ...svgAnyPng,
   ...pngSizesSvgAny,
   ...svgAnyPngSizes,
 ];

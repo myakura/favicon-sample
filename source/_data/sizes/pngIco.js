@@ -22,6 +22,28 @@ const icoPngSizes = sizes.map((size) => {
   };
 });
 
+const pngIcoAny = sizes.map((size) => {
+  return {
+    title: 'PNG, ICO (any)',
+    icons: [
+      { href: `/assets/icons/png/icon-${size}.png` },
+      { href: '/assets/icons/ico/icon.ico', sizes: 'any' },
+    ],
+    permalink: '/sizes/png-ico/png-ico-any/',
+  };
+});
+
+const icoAnyPng = sizes.map((size) => {
+  return {
+    title: 'ICO (any), PNG',
+    icons: [
+      { href: '/assets/icons/ico/icon.ico', sizes: 'any' },
+      { href: `/assets/icons/png/icon-${size}.png` },
+    ],
+    permalink: '/sizes/png-ico/ico-any-png/',
+  };
+});
+
 const pngSizesIcoAny = sizes.map((size) => {
   return {
     title: `PNG (${size}x${size}), ICO (any)`,
@@ -47,6 +69,8 @@ const icoAnyPngSizes = sizes.map((size) => {
 module.exports = [
   ...pngSizesIco,
   ...icoPngSizes,
+  ...pngIcoAny,
+  ...icoAnyPng,
   ...pngSizesIcoAny,
   ...icoAnyPngSizes,
 ];
