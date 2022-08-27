@@ -4,4 +4,5 @@ module.exports = [
   ...require('./type/typeImage.js'),
   ...require('./type/typeMismatch.js'),
   ...require('./type/typeOctetStream.js'),
+  ...require('./type/sameType.js'),
 ];
