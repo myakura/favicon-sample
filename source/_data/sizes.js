@@ -6,4 +6,5 @@ module.exports = [
   ...require('./sizes/icoSvg.js'),
   ...require('./sizes/pngIcoSvg.js'),
   ...require('./sizes/sameSize.js'),
+  ...require('./sizes/icoSizes.js'),
 ];
