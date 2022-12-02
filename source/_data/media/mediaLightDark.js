@@ -51,7 +51,7 @@ module.exports = [
       { href: '/assets/icons/png/icon-16.png', media: '(prefers-color-scheme: light)' },
       { href: '/assets/icons/png-dark/icon-16.png', media: '(prefers-color-scheme: dark)' },
     ],
-    permalink: '/media/light-dark/media/light-dark/',
+    permalink: '/media/light-dark/light-dark/',
   },
   {
     title: 'PNG dark mode, PNG light mode',
