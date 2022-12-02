@@ -61,4 +61,22 @@ module.exports = [
     ],
     permalink: '/media/light-dark/dark-light/',
   },
+  {
+    title: 'PNG light mode, PNG dark mode, PNG',
+    icons: [
+      { href: '/assets/icons/png/icon-16.png', media: '(prefers-color-scheme: light)' },
+      { href: '/assets/icons/png-dark/icon-16.png', media: '(prefers-color-scheme: dark)' },
+      { href: '/assets/icons/png-dark/icon-24.png' },
+    ],
+    permalink: '/media/light-dark/light-dark-nomedia/',
+  },
+  {
+    title: 'PNG dark mode, PNG light mode, PNG',
+    icons: [
+      { href: '/assets/icons/png-dark/icon-16.png', media: '(prefers-color-scheme: dark)' },
+      { href: '/assets/icons/png/icon-16.png', media: '(prefers-color-scheme: light)' },
+      { href: '/assets/icons/png-dark/icon-24.png' },
+    ],
+    permalink: '/media/light-dark/dark-light-nomedia/',
+  },
 ];
