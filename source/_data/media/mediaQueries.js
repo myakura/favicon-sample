@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     title: 'PNG (media="only screen")',
     icons: [

@@ -4,7 +4,7 @@ const sizes = [
 
 const { label, ext, dir } = { label: 'WebP', ext: 'webp', dir: 'webp' };
 
-module.exports = sizes.map((size) => {
+export default sizes.map((size) => {
   return {
     title: `${label} (${size}×${size})`,
     icons: [

@@ -66,7 +66,7 @@ const svgAnyPngSizes = sizes.map((size) => {
   };
 });
 
-module.exports = [
+export default [
   ...pngSizesSvg,
   ...svgPngSizes,
   ...pngSvgAny,

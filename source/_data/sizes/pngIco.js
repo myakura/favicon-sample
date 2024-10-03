@@ -66,7 +66,7 @@ const icoAnyPngSizes = sizes.map((size) => {
   };
 });
 
-module.exports = [
+export default [
   ...pngSizesIco,
   ...icoPngSizes,
   ...pngIcoAny,

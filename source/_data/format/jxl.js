@@ -4,7 +4,7 @@ const sizes = [
 
 const { label, ext, dir } = { label: 'JPEG XL', ext: 'jxl', dir: 'jxl' };
 
-module.exports = sizes.map((size) => {
+export default sizes.map((size) => {
   return {
     title: `${label} (${size}×${size})`,
     icons: [

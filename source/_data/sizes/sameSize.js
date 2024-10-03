@@ -48,7 +48,7 @@ const pngPngSizes = sizes.map((size) => {
   };
 });
 
-module.exports = [
+export default [
   ...sameSize12,
   ...sameSize21,
   ...pngSizesPng,

@@ -2,6 +2,7 @@
   "name": "favicon-sample",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "eleventy",
     "dev": "eleventy --serve --port=8081"

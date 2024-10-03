@@ -4,7 +4,7 @@ const sizes = [
 
 const { label, ext, dir } = { label: 'ICO', ext: 'ico', dir: 'ico-single' };
 
-module.exports = sizes.map((size) => {
+export default sizes.map((size) => {
   return {
     title: `${label} (${size}×${size})`,
     icons: [

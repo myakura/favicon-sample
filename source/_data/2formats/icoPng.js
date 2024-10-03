@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     title: 'PNG 16×16, ICO',
     icons: [

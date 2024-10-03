@@ -4,7 +4,7 @@ const sizes = [
 
 const { label, ext, dir } = { label: 'SVG', ext: 'svg', dir: 'svg' };
 
-module.exports = sizes.map((size) => {
+export default sizes.map((size) => {
   return {
     title: `${label} (${size}×${size})`,
     icons: [

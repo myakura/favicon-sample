@@ -48,7 +48,7 @@ const pngPngType = sizes.map((size) => {
   };
 });
 
-module.exports = [
+export default [
   ...sameType12,
   ...sameType21,
   ...pngTypePng,

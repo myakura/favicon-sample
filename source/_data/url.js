@@ -1,5 +1,9 @@
-module.exports = [
-  ...require('./url/dataUrl.js'),
-  ...require('./url/extSpoofing.js'),
-  ...require('./url/notFound.js'),
+import dataUrl from './url/dataUrl.js';
+import extSpoofing from './url/extSpoofing.js';
+import notFound from './url/notFound.js';
+
+export default [
+  ...dataUrl,
+  ...extSpoofing,
+  ...notFound,
 ];

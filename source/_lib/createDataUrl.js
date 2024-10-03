@@ -1,5 +1,9 @@
-const { readFileSync } = require('node:fs');
-const { resolve } = require('node:path');
+import { readFileSync } from 'node:fs';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 function createDataUrl(file, mime) {
   try {
@@ -11,4 +15,4 @@ function createDataUrl(file, mime) {
   }
 }
 
-module.exports = { createDataUrl };
+export { createDataUrl };

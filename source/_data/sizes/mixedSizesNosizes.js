@@ -64,7 +64,7 @@ const nosizesSizes = sizeSets.map(([w1, w2]) => {
   };
 });
 
-module.exports = [
+export default [
   ...sizesNosizes,
   ...nosizesSizes,
 ];

@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   // recommended sizes
   // https://docs.microsoft.com/en-us/windows/uwp/design/style/app-icons-and-logos#target-size-app-icon-assets
   {

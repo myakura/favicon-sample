@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     title: 'WebP 16×16, SVG 16×16, PNG 16×16',
     icons: [

@@ -36,7 +36,7 @@ const pngSizesIcoSvg = sizes.map((size) => {
   };
 });
 
-module.exports = [
+export default [
   ...pngSizesIcoAnySvgType,
   ...pngSizesIcoAnySvg,
   ...pngSizesIcoSvg,

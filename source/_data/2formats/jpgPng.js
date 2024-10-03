@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     title: 'PNG 16×16, JPEG 16×16',
     icons: [

@@ -49,7 +49,7 @@ const iconSets = [
   },
 ];
 
-module.exports = iconSets.map(({ id, fileType, type, href }) => {
+export default iconSets.map(({ id, fileType, type, href }) => {
   return {
     title: `${fileType} (rel="shortcut icon" type="${type}")`,
     icons: [

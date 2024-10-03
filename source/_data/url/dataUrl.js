@@ -1,6 +1,6 @@
-const { createDataUrl } = require('../../_lib/createDataUrl.js');
+import { createDataUrl } from '../../_lib/createDataUrl.js';
 
-module.exports = [
+export default [
   {
     title: 'ICO in data: URL',
     icons: [

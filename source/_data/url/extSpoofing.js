@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   {
     title: 'PNG (type="image/png") served as ".txt"',
     icons: [

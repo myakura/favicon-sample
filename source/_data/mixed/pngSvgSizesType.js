@@ -132,7 +132,7 @@ const svgAnyTypePngSizesType = sizes.map((size) => {
   };
 });
 
-module.exports = [
+export default [
   ...pngSizesSvgType,
   ...svgTypePngSizes,
   ...pngSizesTypeSvgType,

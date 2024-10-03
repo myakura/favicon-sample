@@ -18,7 +18,7 @@ const partialSizes = icoSizes.map((size, index) => {
   return createPageData(sizes);
 })
 
-module.exports = [
+export default [
   allSizes,
   ...partialSizes,
 ];

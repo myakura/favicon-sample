@@ -21,7 +21,7 @@ const sizeSets = [
   [192, 256, 512],
 ];
 
-module.exports = sizeSets.map(([w1, w2, w3]) => {
+export default sizeSets.map(([w1, w2, w3]) => {
   return {
     title: `PNG (${w1}x${w1}), PNG (${w2}x${w2}), PNG (${w3}x${w3})`,
     icons: [

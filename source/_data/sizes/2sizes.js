@@ -42,7 +42,7 @@ const sizeSets = [
   [256, 192],
 ];
 
-module.exports = sizeSets.map(([w1, w2]) => {
+export default sizeSets.map(([w1, w2]) => {
   return {
     title: `PNG (${w1}x${w1}), PNG (${w2}x${w2})`,
     icons: [
