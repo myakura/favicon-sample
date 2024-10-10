@@ -1,4 +1,4 @@
-export default function (eleventyConfig) {
+export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'source/assets/icons/': 'assets/icons' });
 
   return {
