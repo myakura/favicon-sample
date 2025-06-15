@@ -1,11 +1,11 @@
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ 'source/assets/icons/': 'assets/icons' });
+  eleventyConfig.addPassthroughCopy({ "source/assets/": "assets/" });
 
   return {
     dir: {
       input: 'source/content',
-      includes: '../_includes',
-      data: '../_data',
+      includes: '_includes',
+      data: '_data',
     },
   };
 };
