@@ -1,6 +1,7 @@
 ---
-layout: template.njk
+layout: template.webc
 ---
+
 # favicons!
 
 ## formats
@@ -51,7 +52,6 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-
 ## two formats
 
 <ul>
@@ -60,7 +60,6 @@ layout: template.njk
 {% endfor %}
 </ul>
 
-
 ## three formats
 
 <ul>
@@ -68,7 +67,6 @@ layout: template.njk
 <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
 {% endfor %}
 </ul>
-
 
 ## mixed
 

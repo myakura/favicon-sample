@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>favicons!</title>
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <template webc:is="div" webc:type="11ty" 11ty:type="md">
+    <slot></slot>
+  </template>
+</body>
+</html>
